@@ -71,7 +71,7 @@ to use on your instance.
     exit
 
 ## Screenshot
-![SSH into EC2 from Mac terminal](lab-01-ssh-connection.png)
+![SSH into EC2 from Mac terminal](screenshots/lab-01-ssh-connection.png)
 
 ## Key Observations
 - Never share your .pem file or commit it to GitHub
