@@ -15,12 +15,28 @@ infrastructure workflows.
 - Bash scripting for task automation
 - Log analysis and system monitoring
 
-## Repository Structure
-- **command-reference/** — categorized command references 
-  with syntax and real-world use cases
-- **labs/** — step-by-step lab documentation with 
-  screenshots and key observations
-- **notes/** — section notes and personal technical breakdowns
+## Labs
+
+| Lab | Topic | Status |
+|---|---|---|
+| [Lab 01 — SSH into EC2 from Mac Terminal](labs/lab-01-ssh-into-ec2.md) | SSH, key pair authentication, AWS CLI verification | ✅ Complete |
+| Lab 02 — File System Navigation | cd, ls, pwd, mkdir, rm, cp, mv | 📋 Planned |
+| Lab 03 — File Permissions and Ownership | chmod, chown, user and group management | 📋 Planned |
+| Lab 04 — Service Management | systemctl, starting and stopping services | 📋 Planned |
+| Lab 05 — Nginx Web Server on EC2 | Package installation, service configuration, live deployment | 📋 Planned |
+| Lab 06 — Log Analysis | tail, grep, awk, CloudWatch log basics | 📋 Planned |
+| Lab 07 — Bash Automation Script | Writing and executing shell scripts on EC2 | 📋 Planned |
+
+## Command Reference
+
+| Category | File |
+|---|---|
+| Navigation | [navigation.md](command-reference/navigation.md) |
+| File Management | [file-management.md](command-reference/file-management.md) |
+| Permissions | [permissions.md](command-reference/permissions.md) |
+| Networking | [networking.md](command-reference/networking.md) |
+| Services | [services.md](command-reference/services.md) |
+| Scripting | [scripting.md](command-reference/scripting.md) |
 
 ## Environment
 Amazon Linux 2023 on AWS EC2 (t2.micro)
