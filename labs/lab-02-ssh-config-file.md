@@ -63,8 +63,6 @@ this directory to be accessible only by you:
 
     chmod 700 ~/.ssh
 
-![mkdir and chmod commands](screenshots/lab-02-mkdir-chmod.png)
-
 ---
 
 ### Step 2 — Create the SSH Config File
@@ -73,8 +71,6 @@ Open the config file in nano. If the file does not exist
 yet, nano creates it automatically:
 
     nano ~/.ssh/config
-
-![nano opening the config file](screenshots/lab-02-nano-config.png)
 
 ---
 
@@ -100,8 +96,6 @@ Each line explained:
 
 Save and exit nano: Ctrl + O → Enter → Ctrl + X
 
-![Config file contents in nano](screenshots/lab-02-config-contents.png)
-
 ---
 
 ### Step 4 — Set Permissions on the Config File
@@ -117,7 +111,6 @@ to use a config file with looser permissions as a security
 enforcement — the same reason it requires chmod 400 on 
 your .pem key file.
 
-![chmod 600 on config file](screenshots/lab-02-chmod-config.png)
 
 ---
 
@@ -127,7 +120,6 @@ Confirm the file was saved correctly:
 
     cat ~/.ssh/config
 
-![cat config file output](screenshots/lab-02-cat-config.png)
 
 ---
 
