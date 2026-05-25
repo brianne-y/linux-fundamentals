@@ -1,4 +1,4 @@
-# Doc 03 — File System Navigation
+# Doc 03 — File System Navigation & File Management
 
 ## What This Documentation Covers
 
