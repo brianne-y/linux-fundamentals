@@ -32,12 +32,12 @@ career transition.
 |---|---|---|
 | [Lab 01 — SSH into EC2 from Mac Terminal](labs/lab-01-ssh-into-ec2.md) | SSH, key pair authentication, AWS CLI verification | ✅ Complete |
 | [Lab 02 — SSH Config File: Connecting to EC2 Made Easy](labs/lab-02-ssh-config-file.md) | SSH config file setup, hostname aliasing, permission hardening | ✅ Complete |
-| Lab 03 — File System Navigation | cd, ls, pwd, mkdir, rm, cp, mv | 📋 Planned |
-| Lab 04 — File Permissions and Ownership | chmod, chown, user and group management | 📋 Planned |
-| Lab 05 — Service Management | systemctl, starting and stopping services | 📋 Planned |
-| Lab 06 — Nginx Web Server on EC2 | Package installation, service configuration, live deployment | 📋 Planned |
-| Lab 07 — Log Analysis | tail, grep, awk, CloudWatch log basics | 📋 Planned |
-| Lab 08 — Bash Automation Script | Writing and executing shell scripts on EC2 | 📋 Planned |
+| [Lab 03 — File System Navigation](labs/lab-03-file-system-navigation.md) | pwd, ls, cd, mkdir, rm, cp, mv, find | ✅ Complete |
+| [Lab 04 — File Permissions, Ownership, and User Management](labs/lab-04-file-permissions-ownership-user-management.md) | chmod, chown, useradd, usermod, passwd, whoami, id, groups | 🔨 In Progress |
+| [Lab 05 — Service Management](labs/lab-05-service-management.md) | systemctl, starting and stopping services | 📋 Planned |
+| [Lab 06 — Nginx Web Server on EC2](labs/lab-06-nginx-web-server-on-ec2.md) | Package installation, service configuration, live deployment | 📋 Planned |
+| [Lab 07 — Log Analysis](labs/lab-07-log-analysis.md) | tail, grep, awk, CloudWatch log basics | 📋 Planned |
+| [Lab 08 — Bash Automation Script](labs/lab-08-bash-automation-script.md) | Writing and executing shell scripts on EC2 | 📋 Planned |
 
 ---
 
