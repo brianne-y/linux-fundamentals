@@ -13,8 +13,7 @@ infrastructure management workflows.
 
 Currently 30 days into a dedicated Linux fundamentals run, 
 documenting every concept, command, and troubleshooting 
-experience in public as part of an active cloud engineering 
-career transition.
+experience in public while building a cloud engineering career.
 
 ---
 
@@ -38,8 +37,8 @@ career transition.
 | [Lab 01 — SSH into EC2 from Mac Terminal](labs/lab-01-ssh-into-ec2.md) | SSH, key pair authentication, AWS CLI verification | ✅ Complete |
 | [Lab 02 — SSH Config File: Connecting to EC2 Made Easy](labs/lab-02-ssh-config-file.md) | SSH config file setup, hostname aliasing, permission hardening | ✅ Complete |
 | [Doc 03 — File System Navigation](labs/doc-03-file-system-navigation.md) | Filesystem hierarchy, pwd, ls, cd, mkdir, rm, cp, mv, find, cat, touch, nano, grep, pipe operator | ✅ Complete |
-| [Doc 04 — File Permissions, Ownership, and User Management](labs/doc-04-file-permissions-ownership-user-management.md) | chmod, chown, useradd, usermod, passwd, id, groups | 📋 Planned |
-| [Doc 05 — Service Management](labs/doc-05-service-management.md) | systemctl, starting and stopping services | 📋 Planned |
+| [Doc 04 — File Permissions, Ownership, and User Management](labs/doc-04-file-permissions-ownership-user-management.md) | chmod, chown, useradd, usermod, passwd, id, groups | ✅ Complete |
+| [Doc 05 — Service Management](labs/doc-05-service-management.md) | systemctl, starting and stopping services | 🔨 In Progress |
 | [Doc 06 — Nginx Web Server on EC2](labs/doc-06-nginx-web-server-on-ec2.md) | Package installation, service configuration, live deployment | 📋 Planned |
 | [Doc 07 — Log Analysis](labs/doc-07-log-analysis.md) | tail, grep, awk, CloudWatch log basics | 📋 Planned |
 | [Doc 08 — Bash Automation Script](labs/doc-08-bash-automation-script.md) | Writing and executing shell scripts on EC2 | 📋 Planned |
