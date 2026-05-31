@@ -1,4 +1,9 @@
-# Linux Fundamentals
+<h1 align="center">Linux Fundamentals</h1>
+
+<p align="center">
+  <img src="images/tux.png" alt="Linux Fundamentals" width="600"/>
+</p>
+
 
 Hands-on labs and technical documentation covering Linux 
 administration in cloud environments. All work is executed 
