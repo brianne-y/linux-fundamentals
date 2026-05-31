@@ -97,7 +97,7 @@ useradd -s /bin/bash username
 useradd -s /usr/sbin/nologin username
 ```
 
-The `-u` flag forces a specific numeric user ID instead of letting the system assign one automatically. This matters when managing shared storage volumes like AWS EFS or Docker containers across multiple servers — matching UIDs ensures the filesystem recognizes the same identity across environments.
+The `-u` flag forces a specific numeric user ID instead of letting the system assign one automatically. This matters when managing shared storage volumes like AWS EFS or Docker containers across multiple servers. Matching UIDs ensures the filesystem recognizes the same identity across environments.
 
 ```bash
 useradd -u 1050 username
@@ -127,7 +127,7 @@ The `-l` flag renames the account's login name.
 usermod -l newusername oldusername
 ```
 
-The `-aG` flag adds the user to a supplementary group without touching their existing memberships. The `-a` is not optional — leaving it out silently removes all existing secondary group assignments and replaces them with only the one specified.
+The `-aG` flag adds the user to a supplementary group without touching their existing memberships. The `-a` is not optional! Leaving it out silently removes all existing secondary group assignments and replaces them with only the one specified.
 
 ```bash
 usermod -aG groupname username
@@ -151,7 +151,7 @@ The `-U` flag reverses the lock and restores login access.
 usermod -U username
 ```
 
-The `-s` flag changes the active shell. A shell is the interface program between the user and the operating system — it handles input, tab completions, and command shortcuts. Swapping it out can either upgrade a user's terminal experience or lock the account down completely.
+The `-s` flag changes the active shell. A shell is the interface program between the user and the operating system that handles input, tab completions, and command shortcuts. Swapping it out can either upgrade a user's terminal experience or lock the account down completely.
 
 ```bash
 usermod -s /path/to/shell-program username
@@ -173,7 +173,7 @@ The `-d` flag removes the password requirement entirely, forcing the account to 
 passwd -d username
 ```
 
-The `-l` flag locks the account by inserting an exclamation point at the beginning of the encrypted password string inside `/etc/shadow`, which is the secure file where Linux stores encrypted credential data. The password is not deleted — the account is just made inaccessible, which keeps configuration and audit history intact.
+The `-l` flag locks the account by inserting an exclamation point at the beginning of the encrypted password string inside `/etc/shadow`, which is the secure file where Linux stores encrypted credential data. The password is not deleted! The account is just made inaccessible, which keeps configuration and audit history intact.
 
 ```bash
 passwd -l username
