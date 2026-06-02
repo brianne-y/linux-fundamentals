@@ -4,16 +4,18 @@
   <img src="images/tux.png" alt="Linux Fundamentals" width="600"/>
 </p>
 
+Hands-on lab documentation covering Linux fundamentals from 
+the ground up. Every concept practiced on a live Amazon Linux 
+2023 EC2 instance, documented publicly, and connected to how 
+Linux is actually used in production cloud environments.
 
-Hands-on labs and technical documentation covering Linux 
-administration in cloud environments. All work is executed 
-on Amazon Linux 2023 EC2 instances accessed via SSH from a 
-local Mac terminal: reflecting real-world cloud 
-infrastructure management workflows.
-
-Currently 30 days into a dedicated Linux fundamentals run, 
-documenting every concept, command, and troubleshooting 
-experience in public while building a cloud engineering career.
+Linux is the operating system running underneath nearly every 
+cloud server, container, and production workload in existence. 
+Engineers who work in cloud infrastructure do not just run 
+commands. They understand why the Linux filesystem is 
+structured the way it is, what permissions actually protect, 
+and how the terminal connects to every layer of the cloud 
+engineering stack.
 
 ---
 
